@@ -602,10 +602,9 @@ progress {
 }
 
 .img-fluid {
-  /* max-width: 100%; */
+  width: 100%;
   height: auto;
-  max-width: 612px; 
-  max-height: max-content;
+  max-width: 100%; /* 確保圖片不會超出父容器 */
 }
 
 .img-thumbnail {
